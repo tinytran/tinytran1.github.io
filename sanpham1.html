@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <meta name="viewport" content="width=device-width,initial-sacle=1.0">
+            <title>Danh sách sản phẩm </title>
+    </head>
+    <body>
+        <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family:'open sans',sans-serif;
+            font-size: 14px;
+            color: #111;
+            line-height:1.15;
+        }
+        #wrapper{
+            max-width: 1170px;
+            margin:0 auto;
+
+        }
+        .headline{
+            text-align: center;
+            margin: 40px 0px;
+        }
+        h3{
+            font-size: 18px;
+            color:#555;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #bebebe;
+            display: inline-block;
+            font-weight: 600;
+        }
+        ul.products{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+        }
+        ul.prodcuts li{
+            flex-basis: 25%;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        ul.products li img{
+            max-width: 100%;
+            height: auto;
+        }
+        ul.products li.product-info{
+            padding: 10px 0px;
+
+        }
+        ul.products li.product-info a{
+               display: block;
+               text-decoration: none;
+        }
+        ul.products li.product-info a.product-cat{
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #9e9e9e;
+            padding: 3px 0px;
+        }
+        ul.products li.product-info a.product-name{
+            color: #334862;
+            padding: 3px 0px;
+        }
+        ul.products li.product-info.product-price{
+            color: #111;
+            padding: 2px 0px;
+            font-weight: 600;
+        }
+        ul.products li.product-top {
+            position: relative;
+            overflow: hidden;
+        }
+        ul.products li.product-top .product-thumb {
+          display: block;      
+        }
+        ul.products li :hover a.buy-now{
+            bottom: 0px;
+        }
+        ul.products li.product-top .product-thumb img{
+            display: block;
+        }
+        ul.products li:hover.product-top .product-thumb img{
+            filter: opacity(80%);
+        }
+        ul.products li.product-top a.buy-now{
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            background-color: #446084;
+            color: #fff;
+            padding: 10px 0px;
+            position: absolute;
+            width: 100%;
+            bottom: -36px;
+            width: 100%;
+            transition: 0.25 ease-in-out;
+            opacity: 0.85;
+        }
+        </style>
+     <div id="wrapper">
+         <div class="headline">
+             <h3>Sản phẩm bán chạy </h3>
+         </div>
+         <ul class="products">
+             <li>
+                 <div class="prodcut-item">
+                     <div class="product-top">
+                        <a href="#" class="product-thumb">
+                        <img src="jean.jpg" alt=""></a> 
+                        <a href="#" class="buy-now">Mua ngay</a>
+                     </div>
+                 </div>
+             </li>
+             <li>
+                 <div class="product-info">
+                     <a href="#" class="product-cat">Bags</a>
+                     <a href="jean.jpg" class="product-name">Daisy con đang làm gì đấy</a>
+                     <div class="product-price">$2,22</div>
+                 </div>
+             </li>
+             <li>
+                <div class="prodcut-item">
+                    <div class="product-top">
+                       <a href="#" class="product-thumb">
+                       <img src="jean.jpg" alt=""></a> 
+                       <a href="#" class="buy-now">Mua ngay</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-info">
+                    <a href="#" class="product-cat">Bags</a>
+                    <a href="jean.jpg" class="product-name">Daisy con đang làm gì đấy</a>
+                    <div class="product-price">$2,22</div>
+                </div>
+            </li>
+            <li>
+                <div class="prodcut-item">
+                    <div class="product-top">
+                       <a href="#" class="product-thumb">
+                       <img src="jean.jpg" alt=""></a> 
+                       <a href="#" class="buy-now">Mua ngay</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-info">
+                    <a href="#" class="product-cat">Bags</a>
+                    <a href="jean.jpg" class="product-name">Daisy con đang làm gì đấy</a>
+                    <div class="product-price">$2,22</div>
+                </div>
+            </li>
+            <li>
+                <div class="prodcut-item">
+                    <div class="product-top">
+                       <a href="#" class="product-thumb">
+                       <img src="jean.jpg" alt=""></a> 
+                       <a href="#" class="buy-now">Mua ngay</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-info">
+                    <a href="#" class="product-cat">Bags</a>
+                    <a href="jean.jpg" class="product-name">Daisy con đang làm gì đấy</a>
+                    <div class="product-price">$2,22</div>
+                </div>
+            </li>
+            <li>
+                <div class="prodcut-item">
+                    <div class="product-top">
+                       <a href="#" class="product-thumb">
+                       <img src="jean.jpg" alt=""></a> 
+                       <a href="#" class="buy-now">Mua ngay</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-info">
+                    <a href="#" class="product-cat">Bags</a>
+                    <a href="jean.jpg" class="product-name">Daisy con đang làm gì đấy</a>
+                    <div class="product-price">$2,22</div>
+                </div>
+            </li>
+         </ul>
+     </div>
+    </body>
+</html>

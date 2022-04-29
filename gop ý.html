@@ -1,0 +1,50 @@
+<style>
+    table {
+        color: blueviolet;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffdd;
+        border-radius: 10px;
+        width:650px;
+        box-shadow: 2px 2px 5px blueviolet;
+    }
+    input,select,textarea{
+        color: navy;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button{
+        width: 100px;
+        color: white;
+        font-weight: bold;
+        background-color: navy;
+        border-radius: 20px;
+    }
+</style>
+<table align="center" cellspacing = 10 >
+    <form>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input placeholder="Nhập họ tên tại đây"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input type="radio" name = gen value = male checked tabindex="2"> Nam <br>
+                <input type="radio" name="gen" value="female"> nữ</td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea rows="3" cols = 30></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Gửi đi</button>
+            <button type="reset">làm lại</button></td>
+        </tr>
+    </form>
+</table>
